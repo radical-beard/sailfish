@@ -153,3 +153,17 @@ ANTHROPIC_BASE_URL=http://127.0.0.1:47321 ANTHROPIC_API_KEY=mock ./build/sailfis
 The host publishes the active Neovim's server address to
 `~/.local/share/sailfish/run/current-server`, so a running editor can be
 driven from scripts with `nvim --server <address> --remote-expr …`.
+
+## License
+
+Licensed under either of
+
+- Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE))
+- MIT license ([LICENSE-MIT](LICENSE-MIT))
+
+at your option.
+
+Unless you explicitly state otherwise, any contribution intentionally
+submitted for inclusion in Sailfish by you, as defined in the Apache-2.0
+license, shall be dual licensed as above, without any additional terms or
+conditions.
