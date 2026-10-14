@@ -1,0 +1,22 @@
+# Out-of-source CMake builds (build/, build-release/, ...) and per-user presets
+/build*/
+/out/
+CMakeUserPresets.json
+CMakeLists.txt.user
+
+# clangd: its index, and the compile database each build generates
+/.cache/
+compile_commands.json
+
+# Editors and operating systems
+/.vscode/
+/.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Python (tests/mock_claude.py)
+__pycache__/
+*.py[cod]
